@@ -1,0 +1,29 @@
+body {
+    direction: ltr;
+    background: linear-gradient(#ffffff, #062e3f);
+    height: 100vh;
+}
+*,
+*:before,
+*:after {
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.space-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.gap-20 {
+    gap: 20px;
+}

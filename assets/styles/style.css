@@ -1,0 +1,41 @@
+.motivation-text {
+    padding : 50px 50px;
+ }
+.motivation-text p i {
+    font-family: "Caveat Brush", Arial, Helvetica, sans-serif;
+    color: #062e3f;
+    font-size: 40px;
+    font-weight: 700;
+ }
+.hero-section {
+    height: 100vh;
+    padding: 50px 0;
+ }
+ .hero-section .entry {
+    font-family: "Bodoni Moda SC", serif;
+    padding: 10px 10px;
+    height: 35px;
+    width: 300px;
+    font-size: 20px;
+    color:#fff;
+    background-color: #0C5B7D;
+ }
+ .hero-section ::placeholder {
+    padding: 10px 10px;
+    font-family: "Bodoni Moda SC", serif;
+    color: #fff;
+    opacity: 0.3;
+    font-size: 20px;
+ }
+.hero-section .button {
+    font-family: "Bodoni Moda SC", serif;
+    cursor: pointer;
+    background-color:#062e3f ;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.hero-section h1 {
+    color: #062e3f ;
+} 
