@@ -39,3 +39,8 @@
 .hero-section h1 {
     color: #062e3f ;
 } 
+.hero-section .list li {
+    font-family: "Bodoni Moda SC", serif;
+    font-size: 20px;
+    color: #031820;
+}

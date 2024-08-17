@@ -18,12 +18,23 @@
             <input class="entry" placeholder="Please Enter Your Tasks!"/>
             <button class="button" onclick="add()">i got this</button>
             <ul class="list">
-
             </ul>
         </div>
         <script>
+            document.querySelector(".entry").focus();
             function add() {
-
+                var input = document.querySelector(".entry");
+                var inputText = input.value;
+                if (inputText.trim().length >= 3) {
+                var list = document.querySelector(".list");
+                var li = document.createElement("LI");
+                li.innerHTML = inputText;
+                list.appendChild(li);
+                input.value ="";
+                input.focus();
+                } else {
+                    alert("Please Enter 3 or more characters for Tasks");
+                }
             }
         </script>
     </body>
